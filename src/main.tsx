@@ -1,3 +1,5 @@
 import { createRoot } from "react-dom/client";
+import App from "./ui/App";
+import "./ui/styles.css";
 
-createRoot(document.getElementById("root")!).render(<main><h1>Parametric Sketch</h1></main>);
+createRoot(document.getElementById("root")!).render(<App />);
